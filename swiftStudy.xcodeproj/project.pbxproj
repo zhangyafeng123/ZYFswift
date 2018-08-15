@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		BA1F38B7212432440005ED4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1F38B6212432440005ED4C /* AppDelegate.swift */; };
-		BA1F38B9212432440005ED4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1F38B8212432440005ED4C /* ViewController.swift */; };
 		BA1F38BC212432440005ED4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1F38BA212432440005ED4C /* Main.storyboard */; };
 		BA1F38BE212432450005ED4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA1F38BD212432450005ED4C /* Assets.xcassets */; };
 		BA1F38C1212432450005ED4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1F38BF212432450005ED4C /* LaunchScreen.storyboard */; };
 		BA1F38CC212432450005ED4C /* swiftStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1F38CB212432450005ED4C /* swiftStudyTests.swift */; };
 		BA1F38D7212432450005ED4C /* swiftStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1F38D6212432450005ED4C /* swiftStudyUITests.swift */; };
+		BA1F38EA212437DC0005ED4C /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1F38E4212437DB0005ED4C /* FourViewController.swift */; };
+		BA1F38EB212437DC0005ED4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1F38E5212437DB0005ED4C /* ViewController.swift */; };
+		BA1F38EC212437DC0005ED4C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1F38E6212437DC0005ED4C /* FirstViewController.swift */; };
+		BA1F38ED212437DC0005ED4C /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1F38E7212437DC0005ED4C /* ThreeViewController.swift */; };
+		BA1F38EE212437DC0005ED4C /* FiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1F38E8212437DC0005ED4C /* FiveViewController.swift */; };
+		BA1F38EF212437DC0005ED4C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1F38E9212437DC0005ED4C /* SecondViewController.swift */; };
+		BA1F38F1212439B10005ED4C /* SixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1F38F0212439B10005ED4C /* SixViewController.swift */; };
+		BA1F38F3212453060005ED4C /* SevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1F38F2212453060005ED4C /* SevenViewController.swift */; };
+		BA1F38F72124545C0005ED4C /* OCTest1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1F38F62124545C0005ED4C /* OCTest1ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,6 @@
 /* Begin PBXFileReference section */
 		BA1F38B3212432440005ED4C /* swiftStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1F38B6212432440005ED4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA1F38B8212432440005ED4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA1F38BB212432440005ED4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA1F38BD212432450005ED4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA1F38C0212432450005ED4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,17 @@
 		BA1F38D2212432450005ED4C /* swiftStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1F38D6212432450005ED4C /* swiftStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftStudyUITests.swift; sourceTree = "<group>"; };
 		BA1F38D8212432450005ED4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA1F38E4212437DB0005ED4C /* FourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
+		BA1F38E5212437DB0005ED4C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA1F38E6212437DC0005ED4C /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		BA1F38E7212437DC0005ED4C /* ThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
+		BA1F38E8212437DC0005ED4C /* FiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiveViewController.swift; sourceTree = "<group>"; };
+		BA1F38E9212437DC0005ED4C /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BA1F38F0212439B10005ED4C /* SixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixViewController.swift; sourceTree = "<group>"; };
+		BA1F38F2212453060005ED4C /* SevenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenViewController.swift; sourceTree = "<group>"; };
+		BA1F38F42124545B0005ED4C /* swiftStudy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swiftStudy-Bridging-Header.h"; sourceTree = "<group>"; };
+		BA1F38F52124545C0005ED4C /* OCTest1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCTest1ViewController.h; sourceTree = "<group>"; };
+		BA1F38F62124545C0005ED4C /* OCTest1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTest1ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +116,21 @@
 			isa = PBXGroup;
 			children = (
 				BA1F38B6212432440005ED4C /* AppDelegate.swift */,
-				BA1F38B8212432440005ED4C /* ViewController.swift */,
+				BA1F38E5212437DB0005ED4C /* ViewController.swift */,
+				BA1F38E6212437DC0005ED4C /* FirstViewController.swift */,
+				BA1F38E9212437DC0005ED4C /* SecondViewController.swift */,
+				BA1F38E7212437DC0005ED4C /* ThreeViewController.swift */,
+				BA1F38E4212437DB0005ED4C /* FourViewController.swift */,
+				BA1F38E8212437DC0005ED4C /* FiveViewController.swift */,
+				BA1F38F0212439B10005ED4C /* SixViewController.swift */,
+				BA1F38F52124545C0005ED4C /* OCTest1ViewController.h */,
+				BA1F38F62124545C0005ED4C /* OCTest1ViewController.m */,
+				BA1F38F2212453060005ED4C /* SevenViewController.swift */,
 				BA1F38BA212432440005ED4C /* Main.storyboard */,
 				BA1F38BD212432450005ED4C /* Assets.xcassets */,
 				BA1F38BF212432450005ED4C /* LaunchScreen.storyboard */,
 				BA1F38C2212432450005ED4C /* Info.plist */,
+				BA1F38F42124545B0005ED4C /* swiftStudy-Bridging-Header.h */,
 			);
 			path = swiftStudy;
 			sourceTree = "<group>";
@@ -193,6 +221,7 @@
 				TargetAttributes = {
 					BA1F38B2212432440005ED4C = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					BA1F38C6212432450005ED4C = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -256,8 +285,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA1F38B9212432440005ED4C /* ViewController.swift in Sources */,
+				BA1F38EB212437DC0005ED4C /* ViewController.swift in Sources */,
+				BA1F38F3212453060005ED4C /* SevenViewController.swift in Sources */,
+				BA1F38F72124545C0005ED4C /* OCTest1ViewController.m in Sources */,
+				BA1F38EA212437DC0005ED4C /* FourViewController.swift in Sources */,
 				BA1F38B7212432440005ED4C /* AppDelegate.swift in Sources */,
+				BA1F38EC212437DC0005ED4C /* FirstViewController.swift in Sources */,
+				BA1F38EF212437DC0005ED4C /* SecondViewController.swift in Sources */,
+				BA1F38F1212439B10005ED4C /* SixViewController.swift in Sources */,
+				BA1F38EE212437DC0005ED4C /* FiveViewController.swift in Sources */,
+				BA1F38ED212437DC0005ED4C /* ThreeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +467,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = swiftStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -438,6 +476,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = zhangyafeng.swiftStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swiftStudy/swiftStudy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,6 +487,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = swiftStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,6 +496,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = zhangyafeng.swiftStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swiftStudy/swiftStudy-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

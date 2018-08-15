@@ -22,6 +22,9 @@
 		BA1F38F1212439B10005ED4C /* SixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1F38F0212439B10005ED4C /* SixViewController.swift */; };
 		BA1F38F3212453060005ED4C /* SevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1F38F2212453060005ED4C /* SevenViewController.swift */; };
 		BA1F38F72124545C0005ED4C /* OCTest1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1F38F62124545C0005ED4C /* OCTest1ViewController.m */; };
+		BA82BD6F212470C5006407C9 /* ZYFEightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82BD6E212470C5006407C9 /* ZYFEightViewController.swift */; };
+		BA82BD71212470CE006407C9 /* ZYFPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82BD70212470CE006407C9 /* ZYFPerson.swift */; };
+		BA82BD73212475B6006407C9 /* ZYFStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82BD72212475B6006407C9 /* ZYFStudent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 		BA1F38F42124545B0005ED4C /* swiftStudy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swiftStudy-Bridging-Header.h"; sourceTree = "<group>"; };
 		BA1F38F52124545C0005ED4C /* OCTest1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCTest1ViewController.h; sourceTree = "<group>"; };
 		BA1F38F62124545C0005ED4C /* OCTest1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTest1ViewController.m; sourceTree = "<group>"; };
+		BA82BD6E212470C5006407C9 /* ZYFEightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYFEightViewController.swift; sourceTree = "<group>"; };
+		BA82BD70212470CE006407C9 /* ZYFPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYFPerson.swift; sourceTree = "<group>"; };
+		BA82BD72212475B6006407C9 /* ZYFStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYFStudent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +132,9 @@
 				BA1F38F52124545C0005ED4C /* OCTest1ViewController.h */,
 				BA1F38F62124545C0005ED4C /* OCTest1ViewController.m */,
 				BA1F38F2212453060005ED4C /* SevenViewController.swift */,
+				BA82BD6E212470C5006407C9 /* ZYFEightViewController.swift */,
+				BA82BD70212470CE006407C9 /* ZYFPerson.swift */,
+				BA82BD72212475B6006407C9 /* ZYFStudent.swift */,
 				BA1F38BA212432440005ED4C /* Main.storyboard */,
 				BA1F38BD212432450005ED4C /* Assets.xcassets */,
 				BA1F38BF212432450005ED4C /* LaunchScreen.storyboard */,
@@ -215,6 +224,7 @@
 		BA1F38AB212432440005ED4C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZYF;
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = zhangyafeng;
@@ -285,11 +295,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA82BD73212475B6006407C9 /* ZYFStudent.swift in Sources */,
 				BA1F38EB212437DC0005ED4C /* ViewController.swift in Sources */,
+				BA82BD6F212470C5006407C9 /* ZYFEightViewController.swift in Sources */,
 				BA1F38F3212453060005ED4C /* SevenViewController.swift in Sources */,
 				BA1F38F72124545C0005ED4C /* OCTest1ViewController.m in Sources */,
 				BA1F38EA212437DC0005ED4C /* FourViewController.swift in Sources */,
 				BA1F38B7212432440005ED4C /* AppDelegate.swift in Sources */,
+				BA82BD71212470CE006407C9 /* ZYFPerson.swift in Sources */,
 				BA1F38EC212437DC0005ED4C /* FirstViewController.swift in Sources */,
 				BA1F38EF212437DC0005ED4C /* SecondViewController.swift in Sources */,
 				BA1F38F1212439B10005ED4C /* SixViewController.swift in Sources */,

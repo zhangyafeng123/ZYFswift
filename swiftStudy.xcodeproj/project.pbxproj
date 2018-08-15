@@ -25,6 +25,7 @@
 		BA82BD6F212470C5006407C9 /* ZYFEightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82BD6E212470C5006407C9 /* ZYFEightViewController.swift */; };
 		BA82BD71212470CE006407C9 /* ZYFPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82BD70212470CE006407C9 /* ZYFPerson.swift */; };
 		BA82BD73212475B6006407C9 /* ZYFStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82BD72212475B6006407C9 /* ZYFStudent.swift */; };
+		BA82BD7521247D6D006407C9 /* ZYFPerson1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82BD7421247D6D006407C9 /* ZYFPerson1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		BA82BD6E212470C5006407C9 /* ZYFEightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYFEightViewController.swift; sourceTree = "<group>"; };
 		BA82BD70212470CE006407C9 /* ZYFPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYFPerson.swift; sourceTree = "<group>"; };
 		BA82BD72212475B6006407C9 /* ZYFStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYFStudent.swift; sourceTree = "<group>"; };
+		BA82BD7421247D6D006407C9 /* ZYFPerson1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYFPerson1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				BA82BD6E212470C5006407C9 /* ZYFEightViewController.swift */,
 				BA82BD70212470CE006407C9 /* ZYFPerson.swift */,
 				BA82BD72212475B6006407C9 /* ZYFStudent.swift */,
+				BA82BD7421247D6D006407C9 /* ZYFPerson1.swift */,
 				BA1F38BA212432440005ED4C /* Main.storyboard */,
 				BA1F38BD212432450005ED4C /* Assets.xcassets */,
 				BA1F38BF212432450005ED4C /* LaunchScreen.storyboard */,
@@ -301,6 +304,7 @@
 				BA1F38F3212453060005ED4C /* SevenViewController.swift in Sources */,
 				BA1F38F72124545C0005ED4C /* OCTest1ViewController.m in Sources */,
 				BA1F38EA212437DC0005ED4C /* FourViewController.swift in Sources */,
+				BA82BD7521247D6D006407C9 /* ZYFPerson1.swift in Sources */,
 				BA1F38B7212432440005ED4C /* AppDelegate.swift in Sources */,
 				BA82BD71212470CE006407C9 /* ZYFPerson.swift in Sources */,
 				BA1F38EC212437DC0005ED4C /* FirstViewController.swift in Sources */,

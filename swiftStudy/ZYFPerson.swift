@@ -18,16 +18,16 @@ import UIKit
 class ZYFPerson: NSObject {
     var name: String
     //重写
-    override init() {
-        
-        print("person init")
-        
-        //分配空间设置初始值
-        name = "fengfeng"
-        
-        super.init()
-        
-    }
+//    override init() {
+//        
+//        print("person init")
+//        
+//        //分配空间设置初始值
+//        name = "fengfeng"
+//        
+//        super.init()
+//        
+//    }
     //重载，函数名相同，但是参数和个数不同
     init(name: String) {
         //使用参数的name赋值给属性
